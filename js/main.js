@@ -1,9 +1,10 @@
 require(['config/require',
 	'angular',
-	'app', 
-	'controllers', 
+	'app',
+	'services',
+	'filters',
 	'directives', 
-	'services', 
-	'filters'], function(config, ng, app){
+	'controllers' 
+	], function(config, ng, app){
 	ng.bootstrap(document.querySelector('.myApp'), [app.name]);
 });
