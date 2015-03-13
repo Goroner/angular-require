@@ -6,5 +6,5 @@ require(['config/require',
 	'directives', 
 	'controllers' 
 	], function(config, ng, app){
-	ng.bootstrap(document.querySelector('.myApp'), [app.name]);
+	ng.bootstrap(document.querySelector('[data-ng=my-app]'), [app.name]);
 });
